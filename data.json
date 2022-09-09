@@ -1,0 +1,71 @@
+{
+    "chats":[
+       {
+          "id":1,
+          "contact":"Alice Freeman",
+          "isOnline":true,
+          "avatar":"chat1.jpg",
+          "messages":[
+             {
+                "text":"You are the worst!",
+                "fromMe":"false",
+                "date":"2022-06-15T18:32"
+             }
+          ]
+       },
+       {
+          "id":2,
+          "contact":"Josephina",
+          "isOnline":true,
+          "avatar":"chat2.jpg",
+          "messages":[
+             {
+                "text":"Quickly come to the meeting room 1B, we have a big server issue",
+                "fromMe":"false",
+                "date":"2022-05-03T21:25"
+             },
+             {
+                "text":"I'm having breakfast right now, can't you wait for 10 minutes?",
+                "fromMe":"true",
+                "date":"2022-05-03T21:30"
+             },
+             {
+                "text":"We are losing money! Quick!",
+                "fromMe":"false",
+                "date":"2022-05-03T22:00"
+             }
+          ]
+       },
+       {
+          "id":3,
+          "contact":"Velazquez",
+          "isOnline":true,
+          "avatar":"chat3.jpg",
+          "messages":[
+             {
+                "text":"Quickly come to the meeting room 1B, we have a big server issue",
+                "fromMe":"false",
+                "date":"2021-09-27T14:03"
+             },
+             {
+                "text":"I'm having breakfast right now, can't you wait for 10 minutes?",
+                "fromMe":"true",
+                "date":"2021-09-27T14:33"
+             }
+          ]
+       },
+       {
+          "id":4,
+          "contact":"Barrera",
+          "isOnline":false,
+          "avatar":"chat4.jpg",
+          "messages":[
+             {
+                "text":"Quickly come to the meeting room 1B, we have a big server issue",
+                "fromMe":"false",
+                "date":"2021-03-17T09:10"
+             }
+          ]
+       }
+    ]
+ }

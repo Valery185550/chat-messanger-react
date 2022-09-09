@@ -1,0 +1,68 @@
+.contacts{
+    height: auto;
+    border-right: 2px solid rgba(166, 166, 166, 0.333);
+    overflow: hidden;
+    &:hover{
+        overflow: auto;
+    }
+    &::-webkit-scrollbar{
+        width: 5px;
+       
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(202, 202, 202);    
+        border-radius: 20px;   
+      }
+}
+
+.header{
+    background-color: rgb(245, 245, 245);
+    border-bottom: 2px solid rgba(166, 166, 166, 0.333);
+    width: 100%;
+    padding: 20px;
+}
+
+.input{
+    position: relative;
+    top:0;
+    left:0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.search{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 7px 40px 7px;
+    font-size: 15px;
+    border: 2px solid rgba(166, 166, 166, 0.333);
+    &:focus{
+        outline: none;
+        border: 2px solid rgba(30, 30, 30, 0.333); 
+    }
+}
+
+
+.lupa{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+.chats{
+    margin: 0;
+    color: rgb(0, 174, 255);
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 18px 40px;
+    font-weight: normal;
+}
+
+.hidden{
+    display: none;
+}
+
+

@@ -1,0 +1,82 @@
+$paddingMessage:15px;
+
+.myMessage{
+    padding: $paddingMessage;
+    display: grid;
+    justify-content: end;
+    & .content{
+        justify-content: end;
+    }
+    
+    & .text{
+        background-color: rgb(202, 202, 202);
+        color: black;
+    }
+}
+.contactMessage{
+    padding: $paddingMessage;
+    & .text{
+        background-color: rgb(41, 41, 60);
+        color: white;
+        margin-left: 10px;
+    }
+    & .date{
+        padding-left: 95px;
+    }
+    & .content{
+        grid-template-columns: auto 1fr;
+    }
+    
+}
+
+.content{
+    display:grid;
+    align-items: center;
+    & .text{
+        border-radius: 30px;
+        padding: 20px;
+        max-width: max-content;
+        font-size: 18px;
+        
+    }
+    
+}
+
+.date{
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+
+@media (max-width:900px){
+    .content{
+        & .text{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width:760px){
+
+    .contactMessage{
+        & .content{
+            grid-template-columns: 0 1fr;
+            & img{
+                display: none;
+            }
+        }
+    }
+
+    
+
+}
+
+@media (max-width:650px){
+    .content{
+        & .text{
+            font-size: 13px;
+        }
+    }
+}
+
